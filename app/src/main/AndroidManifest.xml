@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tw.com.hot99.hot99">
+    package="tw.com.hot99.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

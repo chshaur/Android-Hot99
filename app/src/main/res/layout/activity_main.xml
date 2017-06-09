@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,15 +9,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="tw.com.hot99.hot99.MainActivity"
+    tools:context="tw.com.hot99.app.MainActivity"
     android:background="@android:color/holo_red_dark">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TRow03"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_hot99"
+            android:id="@+id/imageView"
+            android:baselineAlignBottom="false" />
+    </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/TRow01"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="30dp">
 
         <Button
             android:text="@string/open_web"
@@ -40,6 +55,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnExit"
             android:background="@android:color/holo_orange_light" />
+
     </TableRow>
 
 </TableLayout>
