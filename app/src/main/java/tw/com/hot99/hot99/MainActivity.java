@@ -1,6 +1,7 @@
 package tw.com.hot99.hot99;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
                         .show();
 
 
+            }
+        });
+
+        // Process Enter Button
+        btnEnter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, WebActivity.class);
+                startActivity(myIntent);
             }
         });
     }
