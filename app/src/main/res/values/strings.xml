@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HOT99</string>
+    <string name="open_web">open web</string>
+    <string name="exit">Exit</string>
+    <string name="memberid">MemberID</string>
+    <string name="enter">Enter</string>
 </resources>

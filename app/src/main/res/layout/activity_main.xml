@@ -9,9 +9,37 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tw.com.hot99.hot99.MainActivity"
-    tools:background="@android:color/holo_blue_bright">
+    android:background="@android:color/holo_red_dark">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:id="@+id/TRow01"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:text="@string/open_web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn2web"
+            android:background="@android:color/holo_red_light"
+            android:layout_weight="2" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:id="@+id/TRow02">
+
+        <Button
+            android:text="@string/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExit"
+            android:background="@android:color/holo_orange_light" />
+    </TableRow>
+
 </TableLayout>
