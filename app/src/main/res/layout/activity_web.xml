@@ -37,8 +37,8 @@
         android:id="@+id/editText"
         android:layout_alignBaseline="@+id/tViewHint"
         android:layout_alignBottom="@+id/tViewHint"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="28dp"
-        android:layout_marginEnd="28dp" />
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
 </RelativeLayout>
