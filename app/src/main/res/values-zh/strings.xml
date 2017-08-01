@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">火紅超市 APP</string>
-    <string name="open_web">進入我的超市</string>
-    <string name="exit">關閉APP</string>
-    <string name="enter">進入超市</string>
-    <string name="memberid">經銷商編號</string>
-</resources>
